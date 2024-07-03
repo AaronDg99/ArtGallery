@@ -1,0 +1,39 @@
+/* src/pages/About.module.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ffffff; /* Fondo blanco */
+  color: #000; /* Texto negro */
+}
+
+.title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.linkText {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}

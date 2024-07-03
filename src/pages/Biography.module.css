@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+.biography {
+  background-color: white;
+  color: black;
+}
+
+.title {
+  font-family: 'Dancing Script', cursive;
+  font-optical-sizing: auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+.biography p {
+  font-size: 1.125rem; /* text-lg */
+  margin-top: 1rem; /* mt-4 */
+}
+
+@media (min-width: 768px) {
+  .biography {
+    flex-direction: row; /* Alinear elementos en fila en pantallas grandes */
+  }
+
+  .biography p {
+    text-align: left; /* Alinear texto a la izquierda en pantallas grandes */
+  }
+}

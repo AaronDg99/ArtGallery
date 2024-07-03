@@ -1,0 +1,44 @@
+/* src/pages/Challenges.module.css */
+
+.challenges {
+    padding: 1rem;
+    background-color: #ffffff; /* Fondo blanco */
+    color: #000; /* Texto negro */
+  }
+  
+  .challenges-title {
+    font-family: 'Dancing Script', cursive;
+    font-optical-sizing: auto;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .challenges-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+  
+  .challenge-card {
+    background-color: #f9f9f9; /* Fondo blanco para cada card */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    transition: transform 0.3s;
+    text-align: center;
+  }
+  
+  .challenge-title {
+    font-family: 'Dancing Script', cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-size: 35px;
+  }
+  
+  .challenge-description {
+    font-family: 'Dancing Script', cursive;
+    font-optical-sizing: auto;
+    font-size: 25px;
+  }
+  

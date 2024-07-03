@@ -1,0 +1,41 @@
+/* src/styles/styles.css */
+.app {
+    font-family: Arial, sans-serif;
+  }
+  
+  section {
+    padding: 100px 20px;
+  }
+  
+  .banner-section {
+    background: #f5f5f5;
+  }
+  
+  .biography-section {
+    background: #e0e0e0;
+  }
+  
+  .gallery-section {
+    background: #cccccc;
+  }
+  
+  .challenges-section {
+    background: #b3b3b3;
+  }
+  
+  .about-section {
+    background: #999999;
+  }
+  
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .image-card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: calc(33.333% - 20px);
+  }
+  
